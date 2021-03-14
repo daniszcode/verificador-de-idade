@@ -1,0 +1,24 @@
+body {
+    background: rgb(70, 142, 236); /*cor de fundo*/
+    font: normal 15pt Arial;
+}
+
+header {
+    color: white;   /*cor do que esta escrito na div*/
+    text-align: center; /*alinhar*/
+}
+
+section {
+    background: white;
+    border-radius: 10px; /*borda arredonda*/
+    padding: 15px; /*definir os valores da espessura da área de preenchimento.*/
+    width: 500px; /*Especifica a largura da área de conteúdo, área de preenchimento ou área de borda (dependendo do 'tamanho da caixa')*/
+    margin: auto; /*Propriedade abreviada para definir os valores da espessura da área da margem. */
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.425); /*cria uma sombra, os px define para onde a parte colorida irá se deslocar para a sombra aparecer*/
+}   
+
+footer {
+    color: white;
+    text-align: center; /*alinhar*/
+    font-style: italic;
+}

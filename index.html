@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Idade</title>
+    <link rel="stylesheet" href="estilo.css"> <!--link para abrir o css em arquivo externo-->
+</head>
+
+    <header> <!--cabecalho dentro do body-->
+        <h1>Verificador de Idade</h1>
+
+    </header>
+    <section>
+        <div>
+            <p>Ano de Nascimento:
+                <input type="number" name="txtano" id="txtano" min="0">
+            </p>
+            <P>Sexo:
+                <input type="radio" name="radsex" id="mas" checked>
+                <label for="mas">Masculino</label>
+                <input type="radio" name="radsex" id="fem"> <!--os namedos dois tem q ser radsex, pq senão os dois ficam checked-->
+                <label for="fem">Femino</label> 
+            </P> <!--input typ radio cria a bolinha para clicar como opção. todo input tipo radio, precisa de uma label explicando p onde será direcionada-->
+            <P><input type="button" value="Verificar" onclick="verificar()"></P>
+        </div>
+        <div id="res">
+            Preencha os dados acima para ver o resultado!
+
+        </div>
+    </section>
+    <footer>
+        <p>&copy; CursoemVideo</p> <!--&copy cria a bolinha de corporation-->
+
+    </footer> 
+    <script src="script.js"></script> 
+</body>
+</html>
